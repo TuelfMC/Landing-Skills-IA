@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dev-project-bootstrapper · De la idea al repositorio</title>
+<meta name="description" content="Presentación de la skill dev-project-bootstrapper: estructura, configuración y documentación inicial para proyectos de software.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-root-margin="-45% 0px -50% 0px">
+<header class="topbar sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark" aria-label="Principal"><div class="container-xl">
+  <a class="navbar-brand brand" href="#inicio" aria-label="dev-project-bootstrapper, inicio"><i class="bi bi-terminal-fill text-info"></i> dev-project-bootstrapper</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="menu"><div class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+    <a class="nav-link" href="#inicio">Inicio</a><a class="nav-link" href="#caracteristicas">Características</a><a class="nav-link" href="#arquitectura">Arquitectura</a><a class="nav-link" href="#recursos">Recursos</a><a class="nav-link" href="#documentacion">Documentación</a>
+    <a class="btn btn-primary ms-lg-2 my-2 my-lg-0" href="#que-es">Explorar la skill</a>
+  </div></div>
+</div></nav>
+</header>
+
+<main>
+<section class="hero dark" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="tag mono">dev-project-bootstrapper</p>
+      <h1>De la idea al repositorio.</h1>
+      <p class="lead">Prepara la estructura de tus proyectos de software con una arquitectura organizada, configuración esencial y documentación lista para comenzar.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#caracteristicas">Explorar características</a>
+        <a class="btn btn-ghost" href="#documentacion">Ver documentación</a>
+        <button class="btn btn-ghost" data-scroll-video><i class="bi bi-play-circle"></i> Ver video</button>
+      </div>
+      <ul class="badges" aria-label="Tecnologías"><li>Markdown</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap 5</li><li>Version 1.0.0</li></ul>
+    </div>
+    <figure class="term" aria-label="Ejemplo de estructura de proyecto">
+      <figcaption><i></i><i></i><i></i> estructura de ejemplo</figcaption>
+<pre>MyApiProject/
+├── src/
+│   ├── MyApi.Domain/
+│   ├── MyApi.Application/
+│   ├── MyApi.Infrastructure/
+│   └── MyApi.WebAPI/
+├── tests/
+│   └── MyApi.Tests/
+├── Dockerfile
+└── README.md</pre>
+    </figure>
+  </div>
+</section>
+
+<section class="light" id="que-es"><div class="wrap">
+  <h2>¿Qué es Dev Project Bootstrapper?</h2>
+  <p class="lead dim">Es una skill: un conjunto de instrucciones para un asistente de IA que actúa como arquitecto de software e inicializador de proyectos. No es una herramienta que se ejecute por sí sola. Genera estructuras estándar de directorios, archivos de configuración inicial, configuraciones de <code>.gitignore</code>, plantillas profesionales de <code>README.md</code> y comandos de inicialización del proyecto y de Git.</p>
+  <div class="grid3">
+    <article class="card"><h3>Arquitectura organizada</h3><p>Propone estructuras modulares según el stack y la arquitectura.</p></article>
+    <article class="card"><h3>Configuración esencial</h3><p>Prepara los archivos necesarios para comenzar.</p></article>
+    <article class="card"><h3>Documentación y comandos</h3><p>Genera instrucciones de instalación, ejecución y configuración.</p></article>
+  </div>
+</div></section>
+
+<section class="dark" id="stacks"><div class="wrap">
+  <h2>Una skill, múltiples stacks.</h2>
+  <p class="lead dim">La arquitectura final depende de la tecnología, el framework y las necesidades del proyecto; no todos los stacks usan la misma estructura.</p>
+  <div class="grid3">
+    <article class="card dk"><h3><i class="bi bi-filetype-cs"></i> C# / .NET</h3><span class="chip">Backend</span><p>ASP.NET Core Web API o Clean Architecture (Domain, Application, Infrastructure, Presentation).</p></article>
+    <article class="card dk"><h3><i class="bi bi-filetype-py"></i> Python</h3><span class="chip">Backend / Datos</span><p>Paquete modular o CLI, o FastAPI, con entorno aislado (venv / poetry).</p></article>
+    <article class="card dk"><h3><i class="bi bi-filetype-js"></i> JavaScript / TypeScript</h3><span class="chip">Web</span><p>Estructura modular basada en componentes, con TypeScript como primera opción.</p></article>
+    <article class="card dk"><h3><i class="bi bi-box-seam"></i> Docker / DevOps</h3><span class="chip">Infraestructura</span><p>Configuración de contenedores y despliegue.</p></article>
+    <article class="card dk"><h3><i class="bi bi-filetype-java"></i> Java</h3><span class="chip">Backend</span><p>Proyectos estándar o con arquitectura modular.</p></article>
+    <article class="card dk"><h3><i class="bi bi-braces"></i> C++</h3><span class="chip">Sistemas</span><p>Proyectos estándar o con arquitectura modular.</p></article>
+  </div>
+</div></section>
+
+<section class="light" id="caracteristicas"><div class="wrap">
+  <h2>Qué entrega la skill</h2>
+  <div class="grid3">
+    <article class="card"><h3>Detección del stack</h3><p>Identifica la tecnología, el framework y el patrón arquitectónico solicitado.</p></article>
+    <article class="card"><h3>Estructura de directorios</h3><p>Genera un árbol visual de carpetas y archivos clave.</p></article>
+    <article class="card"><h3>Archivos de configuración</h3><p>Incluye <code>.gitignore</code>, <code>.env.example</code> y configuraciones de contenedores cuando son pertinentes.</p></article>
+    <article class="card"><h3>README profesional</h3><p>Descripción, arquitectura, requisitos, instalación, ejecución, pruebas y estructura del proyecto.</p></article>
+    <article class="card"><h3>Comandos de inicialización</h3><p>Terminal para crear directorios, inicializar proyectos, instalar dependencias e incorporar Git.</p></article>
+    <article class="card"><h3>Adaptabilidad</h3><p>Admite distintas plantillas y arquitecturas según el stack y los requisitos.</p></article>
+  </div>
+</div></section>
+
+<section class="dark" id="arquitectura"><div class="wrap">
+  <h2>De una solicitud a un proyecto organizado.</h2>
+  <p class="lead dim">Ejemplo del documento original: «Estructura un nuevo proyecto de API REST en C# con .NET 8 y Docker.»</p>
+  <div class="tabs nav" role="tablist" aria-label="Contenido del ejemplo">
+    <button class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#tab-estructura" aria-controls="tab-estructura" aria-selected="true"><i class="bi bi-diagram-3"></i> Estructura</button>
+    <button class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#tab-comandos" aria-controls="tab-comandos" aria-selected="false"><i class="bi bi-terminal"></i> Comandos</button>
+    <button class="nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#tab-config" aria-controls="tab-config" aria-selected="false"><i class="bi bi-gear"></i> Configuración</button>
+  </div>
+  <div class="editor tab-content">
+  <div class="tab-pane fade show active" role="tabpanel" id="tab-estructura" tabindex="0">
+<pre>MyApiProject/
+├── src/
+│   ├── MyApi.Domain/          # Entities, Enums, Interfaces
+│   ├── MyApi.Application/     # Services, DTOs, Use Cases
+│   ├── MyApi.Infrastructure/  # DbContext, Repositories, External Services
+│   └── MyApi.WebAPI/          # Controllers, Program.cs, Middleware
+├── tests/
+│   └── MyApi.Tests/           # Unit &amp; Integration Tests
+├── .dockerignore
+├── .gitignore
+├── Dockerfile
+├── MyApiProject.sln
+└── README.md</pre>
+  </div>
+  <div class="tab-pane fade" role="tabpanel" id="tab-comandos" tabindex="0">
+    <button class="btn btn-ghost copy mb-2" data-copy="#cmd"><i class="bi bi-clipboard"></i> Copiar comandos</button>
+<pre id="cmd"># 1. Crear carpeta principal y moverse a ella
+mkdir MyApiProject &amp;&amp; cd MyApiProject
+
+# 2. Crear solución .NET
+dotnet new sln -n MyApiProject
+
+# 3. Crear proyectos de la solución
+dotnet new classlib -o src/MyApi.Domain
+dotnet new classlib -o src/MyApi.Application
+dotnet new classlib -o src/MyApi.Infrastructure
+dotnet new webapi -o src/MyApi.WebAPI
+dotnet new xunit -o tests/MyApi.Tests
+
+# 4. Agregar proyectos a la solución
+dotnet sln add src/MyApi.Domain/MyApi.Domain.csproj
+dotnet sln add src/MyApi.Application/MyApi.Application.csproj
+dotnet sln add src/MyApi.Infrastructure/MyApi.Infrastructure.csproj
+dotnet sln add src/MyApi.WebAPI/MyApi.WebAPI.csproj
+dotnet sln add tests/MyApi.Tests/MyApi.Tests.csproj
+
+# 5. Inicializar repositorio Git local
+git init
+git add .
+git commit -m "feat: initial project structure setup"</pre>
+  </div>
+  <div class="tab-pane fade" role="tabpanel" id="tab-config" tabindex="0">
+<pre># .gitignore
+# Build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Environment
+.env
+appsettings.Development.json</pre>
+  </div>
+  </div>
+  <dl class="layers">
+    <div><dt>Domain</dt><dd>Entidades, enumeraciones e interfaces.</dd></div>
+    <div><dt>Application</dt><dd>Servicios, DTOs y casos de uso.</dd></div>
+    <div><dt>Infrastructure</dt><dd>DbContext, repositorios y servicios externos.</dd></div>
+    <div><dt>WebAPI</dt><dd>Controladores, Program.cs y middleware.</dd></div>
+  </dl>
+</div></section>
+
+<section class="light" id="infografia"><div class="wrap">
+  <h2>La skill, explicada visualmente.</h2>
+  <figure class="card infog">
+    <img src="assets/images/infografia.png" alt="Infografía de dev-project-bootstrapper: qué es, cuándo se activa, quién la usa, arquitectura, estructura de directorios, archivos clave, README, comandos de terminal y flujo de trabajo" loading="lazy">
+  </figure>
+  <div class="actions">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info-modal"><i class="bi bi-arrows-fullscreen"></i> Ampliar infografía</button>
+    <a class="btn btn-outline" href="assets/images/infografia.png" target="_blank" rel="noopener">Ver archivo original</a>
+  </div>
+  <div class="modal fade" id="info-modal" tabindex="-1" aria-label="Infografía ampliada" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable"><div class="modal-content">
+    <div class="modal-header border-0"><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button></div>
+    <div class="modal-body pt-0"><img class="d-block mx-auto" src="assets/images/infografia.png" alt="Infografía de dev-project-bootstrapper, vista ampliada"></div>
+  </div></div></div>
+</div></section>
+
+<section class="dark" id="video"><div class="wrap">
+  <h2>Mira cómo funciona.</h2>
+  <div id="video-box" class="video-box"></div>
+  <ul class="points"><li>Qué es la skill.</li><li>Cómo organiza un proyecto.</li><li>Qué archivos y comandos genera.</li></ul>
+</div></section>
+
+<section class="light" id="recursos"><div class="wrap">
+  <h2>Workflow de la skill</h2>
+  <ol class="timeline">
+    <li><b>Detectar stack y arquitectura</b><span>Si no se especifica, usa estándares de la industria.</span></li>
+    <li><b>Diseñar la estructura</b><span>Árbol de directorios con carpetas y archivos clave.</span></li>
+    <li><b>Preparar archivos de configuración</b><span><code>.env.example</code>, <code>.gitignore</code>, Dockerfile.</span></li>
+    <li><b>Documentar el proyecto</b><span>README con descripción, uso y estructura.</span></li>
+    <li><b>Proporcionar comandos de inicialización</b><span>Crear proyectos, instalar dependencias y configurar Git.</span></li>
+  </ol>
+</div></section>
+
+<section class="dark" id="documentacion"><div class="wrap">
+  <h2>Explora la skill original.</h2>
+  <article class="card dk file">
+    <div><h3 class="mono">Skill.md</h3><p>Definición original de la skill: metadatos, persona, flujo de ejecución y ejemplo.</p><span class="chip">Markdown</span> <span class="chip">Source</span></div>
+    <div class="actions"><button class="btn btn-primary" id="read-md"><span class="spinner-border spinner-border-sm d-none" aria-hidden="true"></span> <i class="bi bi-book"></i> Leer documentación</button><a class="btn btn-ghost" href="assets/docs/Skill.md" download>Descargar Skill.md</a></div>
+  </article>
+  <div id="md-view" class="md light-panel" hidden aria-live="polite"></div>
+
+  <h2 class="sub">Detalles del proyecto.</h2>
+  <ul class="badges big"><li>Skill: dev-project-bootstrapper</li><li>Versión: 1.0.0</li><li>Categoría: Software Architecture</li><li>Formato: Markdown</li><li>Frontend: HTML · CSS · JavaScript</li><li>Framework: Bootstrap 5</li></ul>
+
+  <h2 class="sub">README del proyecto web.</h2>
+  <article class="card dk file">
+    <div><h3 class="mono">README.md</h3><p>Cómo ejecutar, publicar y personalizar esta landing page.</p></div>
+    <div class="actions"><a class="btn btn-primary" href="README.md" target="_blank" rel="noopener">Ver README</a><a class="btn btn-ghost" href="README.md" download>Descargar README.md</a></div>
+  </article>
+</div></section>
+
+<section class="light" id="faq"><div class="wrap narrow">
+  <h2>Preguntas frecuentes</h2>
+  <div class="accordion" id="faqAcc">
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">¿Qué es una skill?</button></h3><div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Un archivo de instrucciones que define cómo debe comportarse un asistente de IA ante cierto tipo de solicitud. Aquí, actuar como arquitecto de software e inicializador de proyectos.</div></div></div>
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Qué proyectos puede ayudar a estructurar?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Proyectos de ingeniería de software: APIs, aplicaciones web, paquetes y CLIs, entre otros, a partir de frases como «Crea la plantilla para…» o «Estructura un proyecto de…».</div></div></div>
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿Qué tecnologías admite?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">C# (.NET Core, ASP.NET, Unity), Python (FastAPI, Flask, ciencia de datos), JavaScript/TypeScript (Node, React, Next.js), Docker/DevOps, Java, C++ y arquitecturas personalizadas.</div></div></div>
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">¿Qué incluye el README generado?</button></h3><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Título y descripción, resumen de arquitectura, requisitos e instalación, cómo ejecutar y probar, y resumen de la estructura del proyecto.</div></div></div>
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">¿Puedo modificar las arquitecturas propuestas?</button></h3><div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Sí. Si no indicas una arquitectura se usan estándares actuales, pero puedes pedir otra o ampliar la skill con nuevas plantillas (Rust, Go, Flutter…).</div></div></div>
+  <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">¿La skill ejecuta los comandos automáticamente?</button></h3><div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">No. La skill proporciona los comandos como parte de sus instrucciones; ejecutarlos depende del entorno y de las herramientas disponibles.</div></div></div>
+</div>
+</div></section>
+
+<section class="dark cta"><div class="wrap">
+  <h2>Tu próximo proyecto comienza con una buena estructura.</h2>
+  <p class="lead dim">Explora la documentación, revisa la arquitectura de ejemplo y descubre cómo organizar la configuración inicial de tus proyectos.</p>
+  <div class="actions"><a class="btn btn-primary" href="#documentacion">Consultar la documentación</a><a class="btn btn-ghost" href="#infografia">Volver a la infografía</a></div>
+</div></section>
+</main>
+
+<footer class="dark"><div class="wrap foot">
+  <p><b class="mono">dev-project-bootstrapper</b> · Versión 1.0.0<br>Presentación de la skill dev-project-bootstrapper.</p>
+  <nav aria-label="Pie"><a href="#inicio">Inicio</a><a href="#caracteristicas">Características</a><a href="#arquitectura">Arquitectura</a><a href="assets/docs/Skill.md">Skill.md</a><a href="README.md">README.md</a></nav>
+</div></footer>
+<div class="toast-container position-fixed bottom-0 start-0 p-3"><div id="copy-toast" class="toast text-bg-dark border border-info" role="status" aria-live="polite" aria-atomic="true"><div class="d-flex"><div class="toast-body"><i class="bi bi-check2-circle text-info"></i> Comandos copiados</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button></div></div></div>
+<button id="top" aria-label="Volver arriba" hidden>↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
