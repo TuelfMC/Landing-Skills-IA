@@ -2,6 +2,8 @@
 
 Sitio estático que presenta la skill `dev-project-bootstrapper` (v1.0.0): un conjunto de instrucciones para un asistente de IA que genera estructuras de proyecto, configuración inicial, `README.md` y comandos de terminal.
 
+#Enlace a la landing https://tuelfmc.github.io/Landing-Skills-IA/#que-es
+
 ## Objetivo
 Explicar qué es la skill, cómo funciona y qué stacks cubre, integrando la infografía, el video y el `Skill.md` originales.
 
